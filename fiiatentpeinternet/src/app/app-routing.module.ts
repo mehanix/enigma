@@ -6,6 +6,8 @@ import { SplashComponent } from './intro/splash/splash.component';
 const routes: Routes = [
  { path: 'splash', component: SplashComponent },
  { path: 'despre', component: SplashComponent },
+ { path: '', redirectTo: '/splash', pathMatch: 'full'
+  },
 
 
 ];

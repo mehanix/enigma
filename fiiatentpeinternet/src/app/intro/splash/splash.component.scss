@@ -1,0 +1,14 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("/assets/img/splash-bkg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .transparent{
+    background:rgba(255,255,255,0.5);
+    padding-top:20pt;
+    padding-bottom:20pt;
+  }
