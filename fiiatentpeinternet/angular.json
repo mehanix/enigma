@@ -29,10 +29,16 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "styles.scss"
+              "node_modules/materialize-css/dist/css/materialize.min.css",
+              
+              "node_modules/@mdi/font/css/materialdesignicons.min.css"  
+          
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/materialize-css/dist/js/materialize.min.js",
+              "node_modules/hammerjs/hammer.js"
+            ]
           },
           "configurations": {
             "production": {

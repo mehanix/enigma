@@ -6,9 +6,16 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-
   .transparent{
     background:rgba(255,255,255,0.5);
-    padding-top:20pt;
-    padding-bottom:20pt;
+
   }
+
+.valign-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
