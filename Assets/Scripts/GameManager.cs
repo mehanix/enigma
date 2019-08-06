@@ -16,7 +16,9 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
+    public void Exit() {
+        SceneManager.LoadScene("menu");
+    }
     // Update is called once per frame
     void Update()
     {
