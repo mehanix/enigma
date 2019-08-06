@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
+    public GameObject textGO, gameManager;
+    public bool isCorrect;
+    public string text;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,15 @@ public class Portal : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        textGO.GetComponent<TextMesh>().text = text;
+        if(isCorrect == false)
+            gameManager.GetComponent<GameManager>().loseHp();
+
+        Destroy(this.transform.parent.gameObject);
+       
     }
 }
