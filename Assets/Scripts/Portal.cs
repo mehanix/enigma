@@ -7,6 +7,7 @@ public class Portal : MonoBehaviour
     public GameObject textGO, gameManager;
     public bool isCorrect;
     public string text;
+    private bool ans=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,9 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(ans==false) {
+            ans=true;
+ this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         Debug.Log("bop");
         text=text.Replace("\\n","\n");
 
@@ -29,6 +33,8 @@ public class Portal : MonoBehaviour
             gameManager.GetComponent<GameManager>().loseHp();
 
         Destroy(this.transform.parent.gameObject);
+        }
+       
        
     }
 }
