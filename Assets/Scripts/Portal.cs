@@ -19,8 +19,11 @@ public class Portal : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("bop");
+        text=text.Replace("\\n","\n");
+
         textGO.GetComponent<TextMesh>().text = text;
         if(isCorrect == false)
             gameManager.GetComponent<GameManager>().loseHp();
