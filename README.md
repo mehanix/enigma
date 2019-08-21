@@ -1,5 +1,5 @@
 # Enigma
-InfoEducatie Open 2019
+InfoEducatie Open 2019 - un joc interactiv, adresata elevilor de gimnaziu, despre siguranta pe internet
 
 ![](https://i.imgur.com/hXFbW66.png)
 
