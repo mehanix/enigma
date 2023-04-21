@@ -1,19 +1,18 @@
 # Enigma
+
 ![](https://i.imgur.com/hXFbW66.png)
 
+## What is Enigma?
 
-
-# Ce este Enigma?
-
-Enigma este o aventura interactiva, adresata elevilor de gimnaziu, menita sa ii sfatuiasca despre siguranta pe internet prin informarea dusa in paralel cu jucarea unor mini-games relevante.
+Enigma is an interactive adventure aimed at middle school students, meant to advise them on internet safety through information conveyed in parallel with relevant mini-games.
 
 ![](https://i.imgur.com/zrVBRaf.png)
 
-Contine 6 lectii, fiecare cu metoda ei interactiva de consolidare a informatilor, si un modul de Lectii unde elevii pot recapitula informatiile dobandite in cadrul jocului.
+It contains 6 lessons, each with its own interactive method of consolidating information, and a Lessons module where students can review the information learned during the game.
 
 ![](https://i.imgur.com/PmUPoyZ.png)
 
-Creat folosind Unity, scris in intregime in C#. Lectiile sunt memorate in format .json.
+Created using Unity, written entirely in C#. The lessons are stored in .json format.
 
 Credits:
 
